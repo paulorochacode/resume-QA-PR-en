@@ -1,0 +1,401 @@
+/* fundo da pagina*/
+:root{
+    font-size: 12px;
+}
+a{
+    color:rgb(96, 96, 201);
+    font-weight: bolder;
+    font-size: 1vw;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    padding: 2vw;
+    margin: 0px;
+    border: 0px;
+    display: flex;
+    justify-content: rigth;
+}
+
+/* Aside*/
+aside {
+    width: 32vw;
+    background: white;
+    min-height: 100%;
+    align-items: center;
+}
+aside h2{
+    font-size: 2vw;
+}
+aside p{
+    font-size: 1vw;
+}
+#intoDivLeft{
+    background: black;
+    width: 100%;
+}
+#name{
+    font-size: 4vw;
+}
+#role{
+    font-size: 2vw;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.WordsAside{
+    padding: 0% 2% 2% 2%;
+    background:white;
+
+}
+#gitIcon{
+    border-radius: 10%;
+}
+/* backgroud da imagem*/
+#backgroudProfilePicture{
+    height: 21vw;
+    width: 30vw;
+    background:black;
+    border-radius: 100% 0 0 0;
+    padding-left: 2vw;
+}
+.profilePicture{
+    margin-bottom: 5vw ;
+    margin-left: 3vw;
+    width: 20vw;
+    height: 20vw;
+    align-items: center;
+    border-radius: 50%;
+    border: 0.5vw solid white;
+}
+#intoleft{
+    height: 100vh;
+    background: black;
+}
+#conteinerLeftTitle{
+    background:black;
+}
+.Title2 {
+    background: black;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight: bolder;
+    border-radius: 1.0% 1.0% 1.0% 1.0%;
+    border: 3.0%;
+    list-style-type: none;
+    padding-bottom: 2.2%;
+    border-radius: 0px;
+}
+.Title3{
+    margin-top: 0px;
+}
+#theLogisticTitle{
+    padding-top: 1%;
+}
+#profileDescription{
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 2.1%;
+    padding-right: 3.1%;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+#contacts{
+    padding-left: 1vw;
+}
+#icons{
+    display: block;
+    flex-direction: column;
+    background: black;
+    padding-left: 4vw;
+    justify-content: ;
+    
+}
+.icon2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.links{
+    padding-top: 0.5vw;
+    padding-left: 1vw;
+}
+#icons img {
+    width: 2vw;
+    height: 2vw;
+}
+.icons{
+    text-align: left;
+    display:flex;
+    flex-direction: row;
+}
+#iconInfo a{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    display: flex;
+    padding-top:1vw;
+    padding-bottom: 1.2vw;
+}
+
+#data {
+    background:black;
+    color: rgb(253, 253, 253);
+    margin: 0%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+#data li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-radius: 1.0% 1.0% 1.0% 1.0%;
+    border: 3.0%;
+    margin: 2%;
+    list-style-type: none;
+    padding-left: 1.0%;
+    background: black;
+}
+#data li a {
+    text-decoration: none;
+    color: white;
+}
+
+#data p {
+    padding: 2.0%;
+}
+
+#socialData ul li{
+    background:black;
+    margin: 0%;
+    padding-bottom: 0.6%;
+
+}
+.WordsAside{
+    background: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding-top: 1vw;
+}
+
+.socialData{
+    background: black;
+    color: white;
+    padding: 3% 3% 3% 3%;
+}
+.socialData2{
+    height: 100%;
+    background: black;
+    color: white;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.socialData2 p{
+    padding-left: 3.1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+div.icons img{
+    padding: 0.1vw;
+    width: 3vw;
+}
+div.comportament2{
+    display: block;
+    text-align: left;
+    padding-left: 2vw;
+}
+div.Comportament img{
+    width: 50%;
+    height: 10%;
+}
+div.DivPercent{
+    width: 12vw;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    padding-left: 0.7vw;
+}
+.percent{
+    margin-left:0.5vw;
+}
+#psicologicalProfile{
+    background: black;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight: bolder;
+    border: 3.0%;
+    list-style-type: none;
+    padding: 0% 0% 2.2% 3.1%;
+    border-radius: 0px;
+    flex-direction: column;
+}
+Div.DivCenterLink{
+    padding-left: 9.0%;
+    padding-bottom: 2.0%;
+    font-weight: bolder;
+}
+
+#socialData img {
+    width: 10%;
+    height: 10%;
+}
+
+#principal{
+    color: black;
+    font-weight: bolder;
+    width: 60%;
+    background: white(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#theLogisticImg {
+    height: 10vw;
+}
+
+/* Curriculo*/
+.Articles{
+    background:white;
+    width: 130%;
+    padding-left:5%;
+}
+.Articles h1{
+    max-width: 100%;
+}
+
+div.Articles ul{
+    margin: 0%;
+}
+#principal h1{
+    width: 150%;
+    background: yellow;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+#principal h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 1%;
+    padding-bottom: 0%;
+    margin: 1%;
+}
+#principal h4{
+    font-weight: bolder;
+    color: black;
+    margin: 1%;
+}
+#principal ul{
+    padding-bottom: 1%;
+}
+#principal li{
+    padding-bottom: 5px;
+}
+@media only screen and (min-width: 900px) {
+    
+}
+@media only screen and (min-width: 868px) {
+    
+}
+@media only screen and (max-width: 868px) {
+    
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 725px) {
+    
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (max-width: 560px) {
+    
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 471px) {
+    
+}
+/*pixel 2 +*/
+@media only screen and (max-width: 414px) {
+   
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 375px) {
+    
+    
+    body {
+        padding: 4%;
+    }
+    aside {
+        width: 33.7vw;
+    }
+    #backgroudProfilePicture {
+        width: 31.5vw;
+    }
+    #principal {
+        width: 68%;
+    }
+    #principal h3 {
+        padding-bottom: 2vw;
+    }
+    h1 {
+        font-size: 3vw;
+        font-weight: bolder;
+    }
+    div.Articles ul {
+        margin: 0%;
+        font-size: 3vw;
+    }
+    div.Articles li {
+        margin: 0%;
+        font-size: 2.5vw;
+    }
+    aside h2 {
+        font-size: 2.5vw;
+    }
+    #role {
+        font-size: 2.5vw;
+        padding-bottom: 7%;
+    }
+    #icons img {
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+    .links{
+        padding-left: 1%;
+    }
+    #icons {
+        padding-left: 0.5vw;
+    }
+    a {
+        font-size: 1.7vw;
+    }
+    #theLogisticTitle{
+        font-size: 2vw;
+    }
+    aside p {
+        font-size: 1.5vw;
+    }
+    div.Comportament img {
+        width: 80%;
+        height: 20%;
+    }
+    div.DivPercent {
+        width: 12vw;
+        display: flex;
+        justify-content: space-around;
+        font-size: 2vw;
+        font-weight: bolder;
+        padding-left: 4.9vw;
+    }
+    .percent {
+        margin-left: 1.3vw;
+    }
+}
